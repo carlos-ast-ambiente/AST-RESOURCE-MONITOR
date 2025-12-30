@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AST_Resource_Monitor-4a1e6e0e-fcc4-4fa3-8606-e84b7147db83</UserSecretsId>
+    <RootNamespace>AST_Resource_Monitor</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ComputerInfo" Version="0.2.0" />
+    <PackageReference Include="MailKit" Version="4.14.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="10.0.1" />
+    <PackageReference Include="MimeKit" Version="4.14.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="10.0.1" />
+  </ItemGroup>
+</Project>
